@@ -49,7 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+
 }
 
 html, body {
@@ -64,3 +69,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	/* width: 100%; */
+	margin-left: 5%;
+}
+nav a{
+	font-family: 'Baloo Bhai', cursive;
+font-size:120% ;
+	
+	display:inline-block;
+	width: 8%;
+	margin:1.7%;
+	text-decoration: none;
+	color: lightgray;
+	
+}
+nav a:last-child{
+	margin-left: 2%;
+	width: 15%;
+}
+header{
+	width: 89%;
+	height: 70%;
+	margin-left: 1%;
+	position: relative;
+}
+header div{
+	position: relative;
+	width: 40%;
+	display: inline-block;
+	text-align: center;
+}
+header div.img-header{
+	
+width: 37%;
+	margin-left: 17%;
+	vertical-align: middle;
+	margin-top: 1%;
+}
+header div.title-header {
+	
+	position: relative;
+	vertical-align: middle;
+	margin-left: 3%;
+	font-size: 500%;
+	text-align: center;
+}
+button{
+	width: 45%;
+	font-size: 1.5rem;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid gray;
+	padding: 6px 50px;
+}
+
+.img-code{
+	width: 89%;
+	margin-left: 1%;
+}
+
+.content1 div{
+	/*border:2px solid red;*/
+	display:inline-block;
+	width: 43.5%;
+	margin:1%;
+	text-align: justify;
+}
+.content2 div{
+	
+	display:inline-block;
+	width: 28.5%;
+	margin:0.75%;
+	text-align: left;
+}
+.address{
+	
+	margin: 1%;
+	margin-top: 30px;
+}
+address{
+	font-size: 14px;
+	
+}
+.footer{
+	
+	text-align: center; 
+}
+.line {
+	margin: 1%;
+	width: 89%;
+}
